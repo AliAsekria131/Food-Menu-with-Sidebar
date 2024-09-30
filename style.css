@@ -499,3 +499,15 @@ body{
     box-shadow: 0 2px 0px rgba(0, 0, 0, 0.218);
 }
 
+@media (max-width: 740px) {
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        'recipe-card'
+        'nav';
+    }
+    .num-page span{
+        margin-bottom: 10px;
+    }
+}

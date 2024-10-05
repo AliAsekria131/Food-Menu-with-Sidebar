@@ -375,7 +375,6 @@ hr{
 .subscribe .mail{
     width: 50%;
     position: relative;
-    border: 1px solid blue;
     height: 52px;
 }
 .subscribe .mail input{
